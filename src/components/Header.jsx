@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className="w-full max-w-xs flex flex-col items-center justify-center relative">
             <nav className="w-full">
-                <div className="sm:hidden flex justify-end p-2 absolute top-4 right-5 ">
+                <div className="sm:hidden flex justify-end p-2 fixed top-4 right-5 ">
                     <button
                         onClick={() => setMenuOpen(!menuOpen)}
                         type="button"

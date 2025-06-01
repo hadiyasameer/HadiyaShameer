@@ -4,11 +4,11 @@ function Projects({ id }) {
     return (
         <div id={ id }>
             <div className='mt-40 text-center z-30'>
-                <h1 className='font-serif lg:text-2xl text-emerald-300'>CRAFTED WITH CODE & CREATIVITY</h1>
+                <h1 className='font-serif lg:text-xl text-emerald-300'>CRAFTED WITH CODE & CREATIVITY</h1>
             </div>
             <div className='text-center z-30'>
-                <h1 className='font-serif lg:text-5xl font-bold text-white my-5'>Made By Me</h1>
-                <h1 className='lg:text-3xl text-white/50 m-auto p-3 font-serif rounded-lg justify-center text-center lg:w-1/3'>Explore the journey from concept to compelling interface.</h1>
+                <h1 className='font-serif lg:text-4xl font-bold text-white my-5'>Made By Me</h1>
+                <h1 className='lg:text-2xl text-white/50 m-auto p-3 font-serif rounded-lg justify-center text-center lg:w-1/3'>Explore the journey from concept to compelling interface.</h1>
             </div>
             <div className="pb-40 min-h-[200vh] relative">
                 {/* project 1 */}

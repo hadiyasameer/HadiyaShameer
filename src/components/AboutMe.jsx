@@ -30,9 +30,9 @@ function AboutMe({ id }) {
     return (
         <div className='my-10' id={id}>
             <div className='mt-20 text-center z-30'>
-                <h1 className='font-serif lg:text-2xl text-emerald-300'>ABOUT ME</h1>
-                <h2 className='font-serif lg:text-5xl font-bold text-white my-5'>My World Uncovered</h2>
-                <h3 className='lg:text-3xl text-white/50 m-auto p-3 font-serif lg:justify-center lg:text-center lg:w-1/3'>See what I do, what I love, and what inspires me.</h3>
+                <h1 className='font-serif lg:text-xl text-emerald-300'>ABOUT ME</h1>
+                <h2 className='font-serif lg:text-4xl font-bold text-white my-5'>My World Uncovered</h2>
+                <h3 className='lg:text-2xl text-white/50 m-auto p-3 font-serif lg:justify-center lg:text-center lg:w-1/3'>See what I do, what I love, and what inspires me.</h3>
             </div>
             <div className='flex sm:flex-row flex-col justify-center'>
                 <div className='rounded-3xl m-10 border-1 bg-white/5 lg:w-1/2 shadow-3xl text-center text-white'>
@@ -53,12 +53,12 @@ function AboutMe({ id }) {
                         </div>
                     </div>
 
-                    <h1 className='font-serif lg:text-3xl font-bold text-white my-5  flex items-center justify-center pt-3 gap-5'>
+                    <h1 className='font-serif lg:text-2xl font-bold text-white my-5  flex items-center justify-center pt-3 gap-5'>
                         <span className="relative flex size-5">
                             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
                             <span className="relative inline-flex size-5 rounded-full bg-sky-500"></span>
                         </span>My ToolBox</h1>
-                    <h2 className='lg:text-2xl text-white/50 m-auto p-3 font-serif justify-center text-center lg:w-3/4'>Discover the tools and techniques behind my digital creations.</h2>
+                    <h2 className='lg:text-xl text-white/50 m-auto p-3 font-serif justify-center text-center lg:w-3/4'>Discover the tools and techniques behind my digital creations.</h2>
 
                     <div className="overflow-hidden my-5">
                         <div className="inline-flex gap-5 animate-[var(--animate-slide-left)]">
@@ -78,19 +78,18 @@ function AboutMe({ id }) {
                     </div>
                 </div>
                 <div className='rounded-3xl m-10 border-1 bg-white/5 lg:w-2/5 shadow-3xl text-center text-white'>
-                    <h1 className='font-serif lg:text-3xl font-bold text-white my-5  flex items-center justify-center gap-5'>
+                    <h1 className='font-serif lg:text-2xl font-bold text-white my-5  flex items-center justify-center gap-5'>
                         <span className="relative flex size-5">
                             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
                             <span className="relative inline-flex size-5 rounded-full bg-sky-500"></span>
                         </span>Outside the Terminal</h1>
-                    <h2 className='lg:text-2xl text-white/50 m-auto p-3 font-serif justify-center text-center lg:w-3/4'>Beyond screens and syntax — here’s what I enjoy in the real world.</h2>
+                    <h2 className='lg:text-xl text-white/50 m-auto p-3 font-serif justify-center text-center lg:w-3/4 '>Beyond screens and syntax — here’s what I enjoy in the real world.</h2>
                     <div className="flex flex-wrap justify-center gap-4 pb-2">
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white text-sm sm:text-base lg:text-xl font-medium bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg hover:scale-105 transition-transform duration-300">📷 Photography</span>
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white text-sm sm:text-base lg:text-xl font-medium bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg hover:scale-105 transition-transform duration-300">🎵 Music</span>
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white text-sm sm:text-base lg:text-xl font-medium bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg hover:scale-105 transition-transform duration-300">🌍 Exploring New Places</span>
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white text-sm sm:text-base lg:text-xl font-medium bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg hover:scale-105 transition-transform duration-300">🌿 Nature Walks</span>
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white text-sm sm:text-base lg:text-xl font-medium bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg hover:scale-105 transition-transform duration-300">👨‍👩‍👧‍👦 Quality Family Time</span>
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white text-sm sm:text-base lg:text-xl font-medium bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg hover:scale-105 transition-transform duration-300">📖 Reading</span>
+                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">📷 Photography</span>
+                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">🎵 Music</span>
+                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">👨‍👩‍👧‍👦 Quality Family Time</span>
+                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">📖 Reading</span>
+                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">🌍 Exploring New Places</span>
                     </div>
 
                 </div>
