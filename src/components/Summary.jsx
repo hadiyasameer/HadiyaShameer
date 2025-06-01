@@ -8,7 +8,7 @@ function Summary({ id }) {
     }
 
     return (
-        <div id={id} className='lg:mt-50 mt-20 lg:px-6 scroll-mt-28'>
+        <div id={id} className='lg:mt-30 mt-20 lg:px-6 scroll-mt-28'>
             <p className='text-xl text-justify font-serif text-white/60 mx-w-3xl lg:mx-30 rounded-lg justify-center mb-12'>I'm a developer passionate about turning creative ideas into interactive, intuitive digital experiences. I thrive at the crossroads of design and engineering, where performance meets polish. Whether it's building sleek interfaces or architecting smooth user flows, I focus on clean code, seamless interactivity, and meaningful design. My work is driven by clarity, usability, and a touch of delight.</p>
             <div className='text-xl text-white/50 lg:mx-auto p-3 font-serif rounded-lg justify-center text-center mb-12 max-w-2xl'>
                 <h2>Building dynamic and responsive digital interfaces. Bringing digital visions to life through clean design, smart code, and scalable architecture.</h2>

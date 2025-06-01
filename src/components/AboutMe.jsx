@@ -28,7 +28,7 @@ function AboutMe({ id }) {
         { icon: <SiPostman className="h-6 w-6 text-orange-500" />, label: "Postman" },
     ];
     return (
-        <div className='my-10' id={id}>
+        <div className='my-10' id={id }>
             <div className='mt-20 text-center z-30'>
                 <h1 className='font-serif lg:text-xl text-emerald-300'>ABOUT ME</h1>
                 <h2 className='font-serif lg:text-4xl font-bold text-white my-5'>My World Uncovered</h2>
