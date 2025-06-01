@@ -35,9 +35,8 @@ function AboutMe({ id }) {
                 <h3 className='lg:text-2xl text-white/50 m-auto p-3 font-serif lg:justify-center lg:text-center lg:w-1/3'>See what I do, what I love, and what inspires me.</h3>
             </div>
             <div className='flex sm:flex-row flex-col justify-center'>
-                <div className='rounded-3xl m-10 border border-white/20
--1 bg-white/5 lg:w-1/2 shadow-3xl text-center text-white'>
-                    <div className="overflow-hidden w-full">
+                <div className='rounded-3xl m-10 border border-white/20 bg-white/5 lg:w-2/5 shadow-3xl text-center text-white'>
+                    <div className="overflow-hidden w-full my-10">
                         <div className="inline-flex min-w-full gap-5 animate-[var(--animate-slide-right)]">
                             {techStack.map((tech, index) => (
                                 <span key={index} className="text-xl border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl">
@@ -61,7 +60,7 @@ function AboutMe({ id }) {
                         </span>My ToolBox</h1>
                     <h2 className='lg:text-xl text-white/50 m-auto p-3 font-serif justify-center text-center lg:w-3/4'>Discover the tools and techniques behind my digital creations.</h2>
 
-                    <div className="overflow-hidden my-5">
+                    <div className="overflow-hidden w-full my-5">
                         <div className="inline-flex gap-5 animate-[var(--animate-slide-left)]">
                             {techStack1.map((tech, index) => (
                                 <span key={index} className="text-xl border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl">
