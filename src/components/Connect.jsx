@@ -20,16 +20,16 @@ function Connect({ onClose }) {
         setIsSending(true);
 
         emailjs.sendForm(
-            'service_hbxzbxj',
-            'template_aa6xuzb',
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             form.current,
-            'zFE0ufNTCk8WeKdNX'
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         ).then(
             () => {
                 alert('Message sent successfully!');
                 setValues({ name: '', email: '', subject: '', message: '' });
                 setIsSending(false);
-                onClose(); 
+                onClose();
             },
             (error) => {
                 alert('Failed to send message. Please try again.');
