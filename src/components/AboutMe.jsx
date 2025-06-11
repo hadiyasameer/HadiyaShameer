@@ -2,6 +2,7 @@ import React from 'react'
 import { TiCss3, TiHtml5 } from "react-icons/ti";
 import { SiJavascript, SiMongodb, SiNetlify, SiPostman, SiRedux, SiRender, SiTailwindcss, SiVercel } from "react-icons/si";
 import { FaBootstrap, FaFigma, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { BsStripe } from "react-icons/bs";
 
 
@@ -13,6 +14,7 @@ function AboutMe({ id }) {
         { icon: <SiJavascript className="h-6 w-6 text-yellow-400" />, label: "JavaScript" },
         { icon: <FaReact className="h-6 w-6 text-cyan-300" />, label: "React" },
         { icon: <SiMongodb className="h-6 w-6 text-green-500" />, label: "MongoDB" },
+        { icon: <BiLogoPostgresql className="h-6 w-6 text-sky-700" />, label: "PostgreSQL" },
         { icon: <FaNodeJs className="h-6 w-6 text-lime-500" />, label: "NodeJS" },
         { icon: <FaBootstrap className="h-6 w-6 text-purple-500" />, label: "Bootstrap" },
     ];
