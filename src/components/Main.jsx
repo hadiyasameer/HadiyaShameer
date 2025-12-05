@@ -8,6 +8,8 @@ import Features from './Features';
 import Contact from './Contact';
 import Footer from './Footer';
 import Summary from './Summary';
+import ProductDesign from './ProductDesign';
+import VisualRepresentation from './VisualRepresentation';
 function Main() {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
     useEffect(() => {
@@ -35,6 +37,8 @@ function Main() {
                 <Qualifications />
                 <Features />
                 <Projects id="projects" />
+                <ProductDesign id="product_design" />
+                <VisualRepresentation id="visual_representation" />
                 <Features />
                 <AboutMe id="about" />
                 <Contact id="contact" />
