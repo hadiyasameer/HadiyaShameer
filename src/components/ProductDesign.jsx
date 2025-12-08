@@ -9,19 +9,19 @@ const uxProjects = [
   {
     subtitle: "Qatar University Redesign · UX Project",
     features: ["📄 UX research", "🖌️ Wireframes", "📐 Interface improvements"],
-    link: "#",
-    image: "/images/qataruniversity.png", // Replace with real image later
+    link: "/documents/QU_UX_CaseStudy.pdf",
+    image: "/images/qataruniversity.png", 
   },
   {
     subtitle: "QRidey Platform – Car Rental App · UX + UI + Flows",
     features: ["📄 User flows", "🖌️ Wireframes", "🔍 UI exploration"],
-    link: "#",
+    link: "https://www.notion.so/Capstone-Project-April-1d321b48ea56806f89eaed9873194986",
     image: "/images/rideqatar.png",
   },
   {
     subtitle: "PayLater UX Flow Visualisation · Workflows + Annotated Screens",
     features: ["📄 Workflow diagrams", "🖌️ Annotated screens", "🔍 UX insights"],
-    link: "#",
+    link: "/documents/PayLater_Case_Study_UX.pdf",
     image: "/images/paylater.jpg",
   },
 ];

@@ -10,7 +10,7 @@ const visualProjects = [
     title: "PayLater Implementation ",
     subtitle: "Slide Deck · UX • Workflow • Presentation",
     image: "/images/shopify-paylater.jpeg",
-    link: "#",
+    link: "/documents/Paylater-Implementation.pdf",
   },
   {
     title: "Shopify - PayLater Integration Diagrams",
