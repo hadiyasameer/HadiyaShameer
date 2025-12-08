@@ -7,23 +7,27 @@ import "swiper/css/pagination";
 
 const visualProjects = [
   {
-    title: "PayLater Implementation Slides",
+    title: "PayLater Implementation ",
     subtitle: "Slide Deck · UX • Workflow • Presentation",
+    image: "/images/shopify-paylater.jpeg",
     link: "#",
   },
   {
-    title: "Workflow & Integration Diagrams",
+    title: "Shopify - PayLater Integration Diagrams",
     subtitle: "Technical Flowcharts · Sequence Diagrams · API Logic",
+    image: "/images/shopify.jpeg",
     link: "#",
   },
   {
     title: "Annotated UI Screens",
     subtitle: "UX Notes • Pain Points • Feature Highlights",
+    image: "/images/shopify-paylater.jpeg",
     link: "#",
   },
   {
     title: "Product Walkthrough Decks",
     subtitle: "Feature Overview · Processes · User Journey",
+    image: "/images/shopify.jpeg",
     link: "#",
   },
 ];
@@ -71,15 +75,16 @@ function VisualRepresentation({ id }) {
                   href={project.link}
                   className="bg-white hover:bg-white/80 text-emerald-500 text-xl px-4 py-2 mt-5 rounded-lg transition"
                 >
-                  View Placeholder
-                </a>
+                  See More                </a>
               </div>
 
               {/* Placeholder Image Box */}
               <div className="w-full md:w-1/2 p-4 mt-6 md:mt-0">
-                <div className="rounded w-full h-64 bg-white/10 flex items-center justify-center text-white/50 transition-transform duration-300 hover:scale-105">
-                  Placeholder Image
-                </div>
+                <img
+                  src={project.image}
+                  alt={`${project.title} screenshot`}
+                  className="rounded w-full transition-transform duration-300 hover:scale-105"
+                />
               </div>
             </div>
           </SwiperSlide>
