@@ -30,13 +30,13 @@ const visualProjects = [
 
 function VisualRepresentation({ id }) {
   return (
-    <div id={id} className="mt-40 px-4 md:px-0">
+    <div id={id} className="mt-30 px-4 md:px-0">
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="font-serif lg:text-xl text-emerald-300">
           VISUAL COMMUNICATION & PRESENTATION WORK
         </h1>
-        <h1 className="font-serif lg:text-4xl font-bold text-white my-5">
+        <h1 className="font-serif lg:text-2xl font-bold text-white my-3">
           Projects & Slide Decks
         </h1>
         <p className="lg:text-xl text-white/50 m-auto p-3 font-serif rounded-lg justify-center text-center lg:w-1/2">
@@ -63,7 +63,7 @@ function VisualRepresentation({ id }) {
                 <h2 className="font-serif lg:text-xl font-bold text-emerald-300">
                   {project.subtitle}
                 </h2>
-                <h1 className="font-serif lg:text-3xl font-bold text-white my-5">
+                <h1 className="font-serif lg:text-2xl font-bold text-white my-5">
                   {project.title}
                 </h1>
 

@@ -7,7 +7,7 @@ function Intro() {
                 <h1 className="transition-all duration-300 ease-in-out hover:scale-110">Hadiya Shameer</h1>
             </div>
             <div className='text-xl mt-2 text-center font-serif text-white/60 p-3 w-2/3 rounded-lg justify-center'>
-                <h2>Transforming Ideas into Interactive, Elegant Digital Solutions.</h2>
+                <h2>I design beautiful, clear user experiences — and I understand how they are built.</h2>
             </div>
         </div>
     )

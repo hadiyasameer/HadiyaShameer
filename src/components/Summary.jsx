@@ -9,22 +9,28 @@ function Summary({ id }) {
 
     return (
         <div id={id} className='lg:mt-30 mt-20 lg:px-6 scroll-mt-28'>
-            <p className='text-xl text-justify font-serif text-white/60 mx-w-3xl lg:mx-30 rounded-lg justify-center mb-12'>I'm a developer passionate about turning creative ideas into interactive, intuitive digital experiences. I thrive at the crossroads of design and engineering, where performance meets polish. Whether it's building sleek interfaces or architecting smooth user flows, I focus on clean code, seamless interactivity, and meaningful design. My work is driven by clarity, usability, and a touch of delight.</p>
-            <div className='text-xl text-white/50 lg:mx-auto p-3 font-serif rounded-lg justify-center text-center mb-12 max-w-2xl'>
+            {/* <p className='text-xl text-justify font-serif text-white/60 mx-w-3xl lg:mx-30 rounded-lg justify-center mb-12'>I'm a developer passionate about turning creative ideas into interactive, intuitive digital experiences. I thrive at the crossroads of design and engineering, where performance meets polish. Whether it's building sleek interfaces or architecting smooth user flows, I focus on clean code, seamless interactivity, and meaningful design. My work is driven by clarity, usability, and a touch of delight.</p> */}
+            <p className='text-xl text-justify font-serif text-white/60 mx-w-3xl lg:mx-30 rounded-lg justify-center mb-5'>I'm a Product Designer and Full Stack Developer who transforms ideas into clear, intuitive, and user-centered digital experiences. I work at the intersection of design and technology—where research-informed decisions, visual clarity, and interactive performance come together.</p>
+            <p className='text-xl text-justify font-serif text-white/60 mx-w-3xl lg:mx-30 rounded-lg justify-center mb-5'>I craft meaningful user journeys, wireframes, and clean interfaces that prioritize usability and accessibility. With a strong foundation in React, Tailwind, and modern front-end development, I ensure designs are not only visually refined but also technically feasible and responsive.</p>
+            <p className='text-xl text-justify font-serif text-white/60 mx-w-3xl lg:mx-30 rounded-lg justify-center mb-5'>From UX flows and presentation decks to fully functional interfaces, I bring digital ideas to life through thoughtful visuals and scalable code.</p>
+            <p className='text-xl text-center font-semibold text-sky-400 mb-8'>
+                User-Centered • Intuitive Interfaces • Wireframing • Prototyping • Visual Storytelling
+            </p>
+            {/* <div className='text-xl text-white/50 lg:mx-auto p-3 font-serif rounded-lg justify-center text-center mb-12 max-w-2xl'>
                 <h2>Building dynamic and responsive digital interfaces. Bringing digital visions to life through clean design, smart code, and scalable architecture.</h2>
-            </div>
+            </div> */}
             <div className="w-full flex justify-center">
-            <div className='flex flex-col sm:flex-row gap-8 justify-center sm:items-center max-w-xl'>
-                <div className="relative group w-full sm:w-1/2 max-w-xs ">
-                    <div className="absolute -inset-1 blur opacity-70 group-hover:opacity-100 transition duration-300 bg-gradient-to-r from-sky-500 to-teal-400 rounded-lg z-0"></div>
-                    <button onClick={() => scrollToId('projects')} className='relative z-0 w-full min-h-12 text-xl font-bold border rounded-lg text-white bg-black/50'>
-                        Witness the Work</button>
+                <div className='flex flex-col sm:flex-row gap-8 justify-center sm:items-center max-w-xl'>
+                    <div className="relative group w-full sm:w-1/2 max-w-xs ">
+                        <div className="absolute -inset-1 blur opacity-70 group-hover:opacity-100 transition duration-300 bg-gradient-to-r from-sky-500 to-teal-400 rounded-lg z-0"></div>
+                        <button onClick={() => scrollToId('projects')} className='relative z-0 w-full min-h-12 text-xl font-bold border rounded-lg text-white bg-black/50'>
+                            Witness the Work</button>
+                    </div>
+                    <div className="relative group w-full sm:w-1/2 max-w-xs">
+                        <div className="absolute -inset-1 blur opacity-70 group-hover:opacity-100 transition duration-300 bg-gradient-to-r from-sky-500 to-teal-400 rounded-lg z-0"></div>
+                        <button onClick={() => scrollToId('contact')} className='relative border z-10 rounded-lg w-full h-12 text-xl font-bold text-white bg-black/50'>Say Hello 👋</button>
+                    </div>
                 </div>
-                <div className="relative group w-full sm:w-1/2 max-w-xs">
-                    <div className="absolute -inset-1 blur opacity-70 group-hover:opacity-100 transition duration-300 bg-gradient-to-r from-sky-500 to-teal-400 rounded-lg z-0"></div>
-                    <button onClick={() => scrollToId('contact')} className='relative border z-10 rounded-lg w-full h-12 text-xl font-bold text-white bg-black/50'>Say Hello 👋</button>
-                </div>
-            </div>
             </div>
             <div className="flex justify-center mt-10 ">
                 <div className="flex items-center gap-x-2 group">

@@ -22,11 +22,11 @@ function Qualifications() {
 
 
     return (
-        <div className='py-16 mx-10 z-10 lg:mt-50'>
+        <div className='py-16 mx-10 z-10 lg:mt-20'>
             <div className='text-center'>
                 <h1 className='font-serif lg:text-xl text-emerald-300'>Education & Certifications</h1>
-                <h1 className='font-serif sm:text-3xl lg:text-5xl font-bold text-white my-5'>My Qualifications</h1>
-                <h3 className='lg:text-2xl text-white/50 font-serif w-full lg:w-1/2 mx-auto'>
+                <h1 className='font-serif sm:text-2xl lg:text-4xl font-bold text-white my-5'>My Qualifications</h1>
+                <h3 className='lg:text-xl text-white/50 font-serif w-full lg:w-1/2 mx-auto'>
                     Where structured learning meets practical validation — my path through education and certifications.
                 </h3>
             </div>

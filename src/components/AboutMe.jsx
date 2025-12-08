@@ -1,103 +1,118 @@
-import React from 'react'
+import React from 'react';
 import { TiCss3, TiHtml5 } from "react-icons/ti";
-import { SiJavascript, SiMongodb, SiNetlify, SiPostman, SiRedux, SiRender, SiTailwindcss, SiVercel } from "react-icons/si";
-import { FaBootstrap, FaFigma, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiJavascript, SiMongodb, SiNetlify, SiPostman, SiRedux, SiRender, SiTailwindcss, SiVercel, SiGoogleslides, SiAdobeillustrator, SiAdobephotoshop, SiSlideshare } from "react-icons/si";
+import { FaBootstrap, FaGithub, FaNodeJs, FaReact, FaFigma } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsStripe } from "react-icons/bs";
+import { MdOutlineAnalytics } from "react-icons/md";
+import { PiMicrosoftPowerpointLogo } from "react-icons/pi";
 
 
 function AboutMe({ id }) {
-    const techStack = [
+    const designTech = [
+        // Core UX Deliverables
+        { icon: <FaFigma className="h-6 w-6 text-pink-400" />, label: "Wireframes" },
+        { icon: <FaFigma className="h-6 w-6 text-violet-300" />, label: "Mockups" },
+        { icon: <FaFigma className="h-6 w-6 text-blue-300" />, label: "Prototyping" },
+        { icon: <FaFigma className="h-6 w-6 text-teal-300" />, label: "UX Flow Diagrams" },
+        { icon: <FaFigma className="h-6 w-6 text-orange-300" />, label: "User Journey Maps" },
+        { icon: <FaFigma className="h-6 w-6 text-indigo-300" />, label: "Information Hierarchy" },
+        { icon: <FaFigma className="h-6 w-6 text-rose-300" />, label: "Responsive Layouts" },
+
+        // Visual Communication / Presentation Specialist Skills
+        { icon: <PiMicrosoftPowerpointLogo className="h-6 w-6 text-red-400" />, label: "PowerPoint Design" },
+        { icon: <SiGoogleslides className="h-6 w-6 text-yellow-400" />, label: "Google Slides" },
+        { icon: <SiSlideshare className="h-6 w-6 text-orange-300" />, label: "Slide Storytelling" },
+        { icon: <MdOutlineAnalytics className="h-6 w-6 text-green-400" />, label: "Annotated UI" },
+        { icon: <MdOutlineAnalytics className="h-6 w-6 text-blue-300" />, label: "Workflow Diagrams" },
+        { icon: <MdOutlineAnalytics className="h-6 w-6 text-purple-300" />, label: "Process Visualization" },
+
+        // UX Improvements
+        { icon: <FaFigma className="h-6 w-6 text-yellow-300" />, label: "Usability Improvements" },
+        { icon: <FaFigma className="h-6 w-6 text-emerald-300" />, label: "Interaction Design" },
+
+        // Tools (Design)
+        { icon: <FaFigma className="h-6 w-6 text-pink-300" />, label: "Figma Expertise" },
+        { icon: <SiAdobeillustrator className="h-6 w-6 text-orange-400" />, label: "Adobe Illustrator" },
+        { icon: <SiAdobephotoshop className="h-6 w-6 text-blue-400" />, label: "Adobe Photoshop" },
+
+        // Presentation Tools (for Qatar Airways role relevance)
+        { icon: <PiMicrosoftPowerpointLogo className="h-6 w-6 text-red-300" />, label: "Keynote/Presentation Design" },
+        { icon: <SiGoogleslides className="h-6 w-6 text-yellow-300" />, label: "Visual Documentation" },
+    ];
+
+
+    const devTech = [
         { icon: <TiHtml5 className="h-6 w-6 text-orange-600" />, label: "HTML" },
         { icon: <TiCss3 className="h-6 w-6 text-blue-600" />, label: "CSS3" },
         { icon: <SiTailwindcss className="h-6 w-6 text-cyan-400" />, label: "Tailwind" },
         { icon: <SiJavascript className="h-6 w-6 text-yellow-400" />, label: "JavaScript" },
         { icon: <FaReact className="h-6 w-6 text-cyan-300" />, label: "React" },
+        { icon: <FaNodeJs className="h-6 w-6 text-lime-500" />, label: "NodeJS" },
         { icon: <SiMongodb className="h-6 w-6 text-green-500" />, label: "MongoDB" },
         { icon: <BiLogoPostgresql className="h-6 w-6 text-sky-700" />, label: "PostgreSQL" },
-        { icon: <FaNodeJs className="h-6 w-6 text-lime-500" />, label: "NodeJS" },
         { icon: <FaBootstrap className="h-6 w-6 text-purple-500" />, label: "Bootstrap" },
-    ];
-
-    const techStack1 = [
-        { icon: <FaGithub className="h-6 w-6 text-white bg-black rounded" />, label: "GitHub" },
-        { icon: <FaFigma className="h-6 w-6 text-pink-400" />, label: "Figma" },
         { icon: <SiRedux className="h-6 w-6 text-indigo-400" />, label: "Redux" },
-        { icon: <BsStripe className="h-6 w-6 text-indigo-500" />, label: "Stripe" },
         { icon: <SiNetlify className="h-6 w-6 text-teal-400" />, label: "Netlify" },
         { icon: <SiVercel className="h-6 w-6 text-black bg-white rounded" />, label: "Vercel" },
         { icon: <SiRender className="h-6 w-6 text-black bg-white rounded" />, label: "Render" },
+        { icon: <BsStripe className="h-6 w-6 text-indigo-500" />, label: "Stripe" },
         { icon: <SiPostman className="h-6 w-6 text-orange-500" />, label: "Postman" },
+        { icon: <FaGithub className="h-6 w-6 text-white bg-black rounded" />, label: "GitHub" },
     ];
+
     return (
-        <div className='my-10' id={id }>
+        <div className='my-10' id={id}>
             <div className='mt-20 text-center z-30'>
                 <h1 className='font-serif lg:text-xl text-emerald-300'>ABOUT ME</h1>
-                <h2 className='font-serif lg:text-4xl font-bold text-white my-5'>My World Uncovered</h2>
-                <h3 className='lg:text-2xl text-white/50 m-auto p-3 font-serif lg:justify-center lg:text-center lg:w-1/3'>See what I do, what I love, and what inspires me.</h3>
+                <h2 className='font-serif lg:text-3xl font-bold text-white my-5'>My World Uncovered</h2>
+                <p className='lg:text-xl text-white/50 m-auto p-3 font-serif lg:justify-center lg:text-center lg:w-full'>
+                    I'm a hybrid Product Designer and Full Stack Developer. I create intuitive user experiences, wireframes, mockups, and visual storytelling for design-driven projects. Using modern front-end tools (React, Tailwind, JavaScript), I ensure that designs are both beautiful and technically feasible.
+                </p>
             </div>
-            <div className='flex sm:flex-row flex-col justify-center'>
-                <div className='rounded-3xl m-10 border border-white/20 bg-white/5 lg:w-2/5 shadow-3xl text-center text-white'>
-                    <div className="overflow-hidden w-full my-10">
-                        <div className="inline-flex min-w-full gap-5 animate-[var(--animate-slide-right)]">
-                            {techStack.map((tech, index) => (
-                                <span key={index} className="text-xl border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl">
-                                    {tech.icon}
-                                    {tech.label}
-                                </span>
-                            ))}
-                            {techStack.map((tech, index) => (
-                                <span key={`dup-${index}`} className="text-xl border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl">
-                                    {tech.icon}
-                                    {tech.label}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
 
-                    <h1 className='font-serif lg:text-2xl font-bold text-white my-5  flex items-center justify-center pt-3 gap-5'>
-                        <span className="relative flex size-5">
-                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
-                            <span className="relative inline-flex size-5 rounded-full bg-sky-500"></span>
-                        </span>My ToolBox</h1>
-                    <h2 className='lg:text-xl text-white/50 m-auto p-3 font-serif justify-center text-center lg:w-3/4'>Discover the tools and techniques behind my digital creations.</h2>
+            <div className='flex flex-col justify-center gap-10'>
 
-                    <div className="overflow-hidden w-full my-5">
-                        <div className="inline-flex gap-5 animate-[var(--animate-slide-left)]">
-                            {techStack1.map((tech, index) => (
-                                <span key={index} className="text-xl border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl">
-                                    {tech.icon}
-                                    {tech.label}
-                                </span>
-                            ))}
-                            {techStack1.map((tech, index) => (
-                                <span key={`dup-${index}`} className="text-xl border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl">
-                                    {tech.icon}
-                                    {tech.label}
-                                </span>
-                            ))}
-                        </div>
+                {/* UX / Design */}
+                <div className='rounded-3xl border border-white/20 bg-white/5 w-full shadow-3xl text-center text-white p-5'>
+                    <h1 className='font-serif lg:text-2xl font-bold text-white my-5 flex items-center justify-center gap-3'>
+                        UX & Visual Communication
+                    </h1>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mt-5">
+                        {designTech.map((tech, index) => (
+                            <span
+                                key={index}
+                                className="text-base lg:text-lg border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl"
+                            >
+                                {tech.icon} {tech.label}
+                            </span>
+                        ))}
                     </div>
                 </div>
-                <div className='rounded-3xl m-10 border border-white/20 bg-white/5 lg:w-2/5 shadow-3xl text-center text-white'>
-                    <h1 className='font-serif lg:text-2xl font-bold text-white my-5  flex items-center justify-center gap-5'>
-                        <span className="relative flex size-5">
-                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
-                            <span className="relative inline-flex size-5 rounded-full bg-sky-500"></span>
-                        </span>Outside the Terminal</h1>
-                    <h2 className='lg:text-xl text-white/50 m-auto p-3 font-serif justify-center text-center lg:w-3/4 '>Beyond screens and syntax — here’s what I enjoy in the real world.</h2>
-                    <div className="flex flex-wrap justify-center gap-4 pb-2">
-                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border border-white/20 text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">📷 Photography</span>
-                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border border-white/20 text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">🎵 Music</span>
-                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border border-white/20 text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">👨‍👩‍👧‍👦 Quality Family Time</span>
-                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border border-white/20 text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">📖 Reading</span>
-                        <span className="relative inline-flex items-center gap-2 px-4 py-2 rounded-lg text-black opacity-50 bg-gradient-to-r from-sky-500 to-teal-400 border border-white/20 text-sm sm:text-base lg:text-xl font-medium shadow-lg hover:scale-105 transition-transform duration-300 lg:justify-center z-10">🌍 Exploring New Places</span>
-                    </div>
 
+                {/* Developer */}
+                <div className='rounded-3xl border border-white/20 bg-white/5 w-full shadow-3xl text-center text-white p-5'>
+                    <h1 className='font-serif lg:text-2xl font-bold text-white my-5 flex items-center justify-center gap-3'>
+                        Developer Toolbox
+                    </h1>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mt-5">
+                        {devTech.map((tech, index) => (
+                            <span
+                                key={index}
+                                className="text-base lg:text-lg border border-white/20 text-white flex items-center gap-2 p-3 rounded-xl"
+                            >
+                                {tech.icon} {tech.label}
+                            </span>
+                        ))}
+                    </div>
                 </div>
+
             </div>
-        </div >
-    )
+
+        </div>
+    );
 }
 
-export default AboutMe
+export default AboutMe;

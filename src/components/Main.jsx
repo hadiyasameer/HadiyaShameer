@@ -35,11 +35,11 @@ function Main() {
             <div className='w-full px-4 pb-8 lg:ml-[30%] lg:w-[70%] lg:px-6 z-10'>
                 <Summary id="summary" />
                 <Qualifications />
-                <Features />
-                <Projects id="projects" />
+                {/* <Features /> */}
                 <ProductDesign id="product_design" />
+                <Projects id="projects" />
                 <VisualRepresentation id="visual_representation" />
-                <Features />
+                {/* <Features /> */}
                 <AboutMe id="about" />
                 <Contact id="contact" />
                 <h1 className='text-white/50 text-sm md:text-base lg:text-xl mt-8 px-4 text-center'>Crafted in <span className='text-white/80'>VS Code</span>, powered by <span className='text-white/80'>React.js</span> and styled with <span className='text-white/80'>Tailwind CSS</span>. Deployed globally with <span className='text-white/80'>Vercel</span>.</h1>

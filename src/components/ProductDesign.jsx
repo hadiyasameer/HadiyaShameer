@@ -8,21 +8,18 @@ import "swiper/css/pagination";
 const uxProjects = [
   {
     subtitle: "Qatar University Redesign · UX Project",
-    title: "Empty Slot",
     features: ["📄 UX research", "🖌️ Wireframes", "📐 Interface improvements"],
     link: "#",
     image: "/images/qu-placeholder.png", // Replace with real image later
   },
   {
     subtitle: "QRidey Platform – Car Rental App · UX + UI + Flows",
-    title: "Empty Slot",
     features: ["📄 User flows", "🖌️ Wireframes", "🔍 UI exploration"],
     link: "#",
     image: "/images/qridey-placeholder.png",
   },
   {
     subtitle: "PayLater UX Flow Visualisation · Workflows + Annotated Screens",
-    title: "Empty Slot",
     features: ["📄 Workflow diagrams", "🖌️ Annotated screens", "🔍 UX insights"],
     link: "#",
     image: "/images/paylater-placeholder.png",
@@ -31,7 +28,7 @@ const uxProjects = [
 
 function ProductDesign({ id }) {
   return (
-    <div id={id} className="mt-40 px-4 md:px-0">
+    <div id={id} className="mt-30 px-4 md:px-0">
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="font-serif lg:text-xl text-emerald-300">
@@ -63,7 +60,7 @@ function ProductDesign({ id }) {
                 <h2 className="font-serif lg:text-xl font-bold text-emerald-300">
                   {project.subtitle}
                 </h2>
-                <h1 className="font-serif lg:text-3xl font-bold text-white my-5">
+                <h1 className="font-serif lg:text-2xl font-bold text-white my-5">
                   {project.title}
                 </h1>
 

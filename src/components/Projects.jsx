@@ -19,25 +19,25 @@ const projectsData = [
     link: "https://hadiyasameer.github.io/estore/",
     image: "/images/estore.png",
   },
-  {
-    title: "Gucci Fashion Store",
-    subtitle: "Fashion Website · 2025",
-    features: ["👗 Responsive design", "🧩 Stylish UI components", "📱 Mobile-first layout"],
-    link: "https://hadiyasameer.github.io/guccibyreactbootstrap/",
-    image: "/images/gucci.png",
-  },
-  {
-    title: "Movies Just For You",
-    subtitle: "Movie Finder · 2025",
-    features: ["🎬 Browse movies", "📖 View detailed movie information", "📱 Mobile-first layout"],
-    link: "https://hadiyasameer.github.io/movie-details/",
-    image: "/images/moviefinder.png",
-  },
+  // {
+  //   title: "Gucci Fashion Store",
+  //   subtitle: "Fashion Website · 2025",
+  //   features: ["👗 Responsive design", "🧩 Stylish UI components", "📱 Mobile-first layout"],
+  //   link: "https://hadiyasameer.github.io/guccibyreactbootstrap/",
+  //   image: "/images/gucci.png",
+  // },
+  // {
+  //   title: "Movies Just For You",
+  //   subtitle: "Movie Finder · 2025",
+  //   features: ["🎬 Browse movies", "📖 View detailed movie information", "📱 Mobile-first layout"],
+  //   link: "https://hadiyasameer.github.io/movie-details/",
+  //   image: "/images/moviefinder.png",
+  // },
 ];
 
 function Projects({ id }) {
   return (
-    <div id={id} className="mt-40 px-4 md:px-0">
+    <div id={id} className="mt-30 px-4 md:px-0">
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="font-serif lg:text-xl text-emerald-300">CRAFTED WITH CODE & CREATIVITY</h1>
@@ -63,7 +63,7 @@ function Projects({ id }) {
             <div className="flex flex-col md:flex-row justify-between items-center p-5 md:p-10 m-auto rounded-3xl border-0 bg-slate-950 w-full md:w-5/6 shadow-3xl transition-transform duration-300 hover:scale-105">
               <div className="max-w-md flex flex-col justify-center items-center text-center">
                 <h2 className="font-serif lg:text-xl font-bold text-emerald-300">{project.subtitle}</h2>
-                <h1 className="font-serif lg:text-3xl font-bold text-white my-5">{project.title}</h1>
+                <h1 className="font-serif lg:text-2xl font-bold text-white my-5">{project.title}</h1>
                 <ul className="lg:text-xl text-white/70 text-center space-y-2">
                   {project.features.map((feature, i) => (
                     <li key={i}>{feature}</li>
