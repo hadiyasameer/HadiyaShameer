@@ -10,19 +10,19 @@ const uxProjects = [
     subtitle: "Qatar University Redesign · UX Project",
     features: ["📄 UX research", "🖌️ Wireframes", "📐 Interface improvements"],
     link: "#",
-    image: "/images/qu-placeholder.png", // Replace with real image later
+    image: "/images/qataruniversity.png", // Replace with real image later
   },
   {
     subtitle: "QRidey Platform – Car Rental App · UX + UI + Flows",
     features: ["📄 User flows", "🖌️ Wireframes", "🔍 UI exploration"],
     link: "#",
-    image: "/images/qridey-placeholder.png",
+    image: "/images/rideqatar.png",
   },
   {
     subtitle: "PayLater UX Flow Visualisation · Workflows + Annotated Screens",
     features: ["📄 Workflow diagrams", "🖌️ Annotated screens", "🔍 UX insights"],
     link: "#",
-    image: "/images/paylater-placeholder.png",
+    image: "/images/paylater.jpg",
   },
 ];
 
@@ -81,10 +81,13 @@ function ProductDesign({ id }) {
               </div>
 
               {/* Placeholder Image Box */}
+
               <div className="w-full md:w-1/2 p-4 mt-6 md:mt-0">
-                <div className="rounded w-full h-64 bg-white/10 flex items-center justify-center text-white/50 transition-transform duration-300 hover:scale-105">
-                  Placeholder Image
-                </div>
+                <img
+                  src={project.image}
+                  alt={`${project.title} screenshot`}
+                  className="rounded w-full transition-transform duration-300 hover:scale-105"
+                />
               </div>
             </div>
           </SwiperSlide>
