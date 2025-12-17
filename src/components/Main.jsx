@@ -38,7 +38,7 @@ function Main() {
                 {/* <Features /> */}
                 <ProductDesign id="product_design" />
                 <Projects id="projects" />
-                <VisualRepresentation id="visual_representation" />
+                {/* <VisualRepresentation id="visual_representation" /> */}
                 {/* <Features /> */}
                 <AboutMe id="about" />
                 <Contact id="contact" />

@@ -30,7 +30,7 @@ function Header() {
                     <a href="#summary" className="rounded-md px-3 py-2 text-xl font-medium text-white hover:bg-gray-700">Home</a>
                     <a href="#projects" className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
                     <a href="#product_design" className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Product Design Works</a>
-                    <a href="#visual_representation" className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Visual Communication Work</a>
+                    {/* <a href="#visual_representation" className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Visual Communication Work</a> */}
                     <a href="#about" className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
                     <a href="#contact" className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
                 </div>
@@ -40,7 +40,7 @@ function Header() {
                         <a href="#summary" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">Home</a>
                         <a href="#projects" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
                         <a href="#product_design" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Product Design Works</a>
-                        <a href="#visual_representation" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Visual Communication Work</a>
+                        {/* <a href="#visual_representation" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Visual Communication Work</a> */}
                         <a href="#about" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
                         <a href="#contact" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
                     </div>
